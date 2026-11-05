@@ -14,7 +14,7 @@ class student {
     }
 
     public void checkpass() {
-        double average = (scores[0] + scores[1] +scores[2])/3.0;
+        double average = (scores[0] + scores[1] +scores[2])/scores.length; //Changed the math from 'divided by 3' to 'divided by scores.length'
         if (average >= 60){
             System.out.println( name+ " passed.");
         } else{System.out.println( name+ " failed.");}
@@ -49,6 +49,5 @@ while (count<= numstudents){
     count++;
 }
 scanner.close();
-
-    }
+    } //deleted an empty line
 }
