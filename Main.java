@@ -51,3 +51,4 @@ while (count<= numstudents){
 scanner.close();
     } //deleted an empty line
 }
+//Edited by Stefan Drenth
