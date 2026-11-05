@@ -9,6 +9,16 @@ and displays if they passed or not
 2. Enter student names and scores.
 3. View the calculated grade output.
 
+```java
+public class Main {
+    public static void main(String[] args) {
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("How many students? ");
+int numstudents = scanner.nextInt();
+scanner.nextLine();
+```java
+
 ## Example Output
 Student: Alex  
 Assignment Grade: 345
