@@ -9,6 +9,7 @@ and displays if they passed or not
 2. Enter student names and scores.
 3. View the calculated grade output.
 
+a part of the code that askes how many students there are
 ```java
 public class Main {
     public static void main(String[] args) {
