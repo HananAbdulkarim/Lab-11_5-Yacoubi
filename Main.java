@@ -23,12 +23,12 @@ class student {
 
 public class Main {
     public static void main(String[] args) {
-```java
+
 Scanner scanner = new Scanner(System.in);
 System.out.print("How many students? ");
 int numstudents = scanner.nextInt();
 scanner.nextLine();
-```
+
 int count = 1;
 
 while (count<= numstudents){
